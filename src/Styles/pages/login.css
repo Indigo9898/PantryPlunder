@@ -1,0 +1,21 @@
+#login-form{
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10% 10%;
+    background-color: #fefae0;
+    border-radius: 50px;
+   
+}
+
+.form-bg{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-input{
+    margin-bottom: 15%;
+}

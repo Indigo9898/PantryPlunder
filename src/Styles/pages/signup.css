@@ -1,0 +1,10 @@
+#signup-form{
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10% 10%;
+    background-color: #fefae0;
+    border-radius: 50px;
+   
+}

@@ -1,0 +1,113 @@
+#pantry-page{
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: #fefae0;
+}
+
+
+#logo{
+    color: #edf2f4;
+    font-size: 1.2em;
+    margin-left: 2%;
+}
+
+#ingredient-section{
+    display: flex;
+    flex-direction: column;
+}
+
+#ingredient-area{
+    display: flex;
+    min-height: 75vh;
+    justify-content: center;
+}
+
+#ingredient-text{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+#ingredient-box{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3%;
+    height: 15vh;
+    width: 15vh;
+    background-color: #606c38;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+}
+
+#ingredient-text-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    font-size: 2em;
+    color: #2b2d42;
+}
+
+#btn-box{
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+
+#new-form{
+    display: none;
+    align-items: center;
+    align-self: center;
+    z-index: 1000;
+}
+
+#new-form-active{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    z-index: 1000; 
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100vh;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.ingredient-category{
+    margin-top: 1em;
+    font-weight: 800;
+    justify-content: center;
+    height: 100%;
+    width: 100vh;
+}
+
+.select-cat-area{
+    display: flex;
+    height: 100%;
+    max-width: 100vh;
+    flex-wrap: wrap;
+}
+
+.ingredient-select-items{
+    min-height: 25vh;
+    min-width: 25vh;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    display: flex;  
+    margin: 5% 5% 5% 5%;
+    flex-direction: column;
+}
+
+#add-area{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100vh;
+}
