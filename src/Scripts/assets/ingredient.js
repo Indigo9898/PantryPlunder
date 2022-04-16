@@ -1,15 +1,18 @@
 
 
 class ingredient{
-    ingredient = (name, size, unit) =>{
+    ingredient = (name, quanity, unit) =>{
         this.name = name;
-        this.size = size;
+        this.quanity = quanity;
         this.unit = unit;
     }
 
-    getName = () =>{
-        return this.name;
+    setQuanity = (newQuanity) =>{
+        this.quanity= newQuanity;
     }
+
+    
+
 }
 
 

@@ -1,6 +1,17 @@
 import { Outlet, Link } from "react-router-dom";
+import{
+  auth,
+  db,
+  signInWithGoogle,
+  logInWithEmailAndPassword,
+  registerWithEmailAndPassword,
+  sendPasswordReset,
+  logout,
+} from '../../firebase.js'
+
 
 const Navigation = () => {
+
   return (
     <>
       <nav id="nav-bar">
@@ -15,7 +26,11 @@ const Navigation = () => {
           <li  className="link-item">
             <Link to="/pantry">Pantry</Link>
           </li>
+          <li  className="link-item">
+            <Link to="/recipes">Recipe</Link>
+          </li>
         </ul>
+        
       </nav>
 
       <Outlet />
