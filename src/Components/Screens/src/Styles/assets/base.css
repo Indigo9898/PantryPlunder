@@ -1,0 +1,11 @@
+/* set default font and size and any other default value */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
+
+.page{
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+input{
+    border-radius: 5px;
+}

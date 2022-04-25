@@ -1,0 +1,41 @@
+#nav-bar{
+    min-height: 10vh;
+    background: #bc6c25;
+    display: flex;
+    align-items: center;
+}
+
+#link-bar{
+    display: flex;
+}
+
+.link-item{
+    padding-left: 10%;
+}
+
+.link-item a {
+    color: #fff;
+		border-bottom: .1em solid #e8e1d8;
+		transition: background-color .2s ease-in-out;
+    text-decoration: none;
+}
+
+.link-item a:hover {
+    background-color: #e8e1d8;
+}
+
+
+  
+button {
+    background-color: #fff;
+    background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+    background-position: 100%;
+    background-size: 400%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+  }
+  button:hover {
+    background-position: 0;
+  }
+  
